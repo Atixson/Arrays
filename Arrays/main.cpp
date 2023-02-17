@@ -1,4 +1,4 @@
-//Arrays
+п»ї//Arrays
 #include <iostream>
 using namespace std;
 
@@ -6,13 +6,13 @@ int main()
 {
 	setlocale(LC_ALL, "");
 	const int n = 5;
-	double sum = 0;// сумма 
+	double sum = 0;// СЃСѓРјРјР° 
 	int arr[n];
-	int max = arr[0];//максимальное значение
-	unsigned int min = arr[0];//минимальное значение
+	int max = arr[0];//РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
+	unsigned int min = arr[0];//РјРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
 	for (int i = 0; i < n; i++)
 	{
-		cout << "Введите " << i + 1 << "-е значение массива : ";
+		cout << "Р’РІРµРґРёС‚Рµ " << i + 1 << "-Рµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР° : ";
 		cin >> arr[i];
 	}
 	cout << endl;
@@ -25,8 +25,8 @@ int main()
 		if (min > arr[i])
 			min = arr[i];
 	}
-	cout << "\n\n Сумма = " << sum << endl;
-	cout << "\n Среднее арифмитическое = " << sum / n << endl;
-	cout << "\n Максимальное значение = " << max << endl;
-	cout << "\n Минимальное значение = " << min << endl;
+	cout << "\n\n РЎСѓРјРјР° = " << sum << endl;
+	cout << "\n РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРёС‚РёС‡РµСЃРєРѕРµ = " << sum / n << endl;
+	cout << "\n РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ = " << max << endl;
+	cout << "\n РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ = " << min << endl;
 }
